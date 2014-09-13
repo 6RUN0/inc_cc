@@ -1,0 +1,12 @@
+.inc-cc-button {
+  float: left;
+  margin: .2em;
+}
+
+.inc-cc-fix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
